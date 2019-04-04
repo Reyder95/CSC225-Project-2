@@ -1,0 +1,23 @@
+.jumbotron {
+    background-color: #C59EFF;
+}
+
+.jumbotron p, .jumbotron h1 {
+    color: #2E2E2E;
+}
+
+.gallery img {
+    width: 100%;
+    transition: 0.2s;
+}
+
+.gallery p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gallery img:hover {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.50) !important;
+    transition: 0.2s;
+}

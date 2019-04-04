@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+        <title>Art Shop | Checkout</title>
+
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="css/checkout.css" rel="stylesheet" type="text/css" />
+        <link href="css/global.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <nav class="top-nav">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <h2>Enter Payment Details Below</h2>
+        <form method="GET" class="w-50 p-3 border border-primary shadow rounded">
+            <div class="form-group">
+                <label for="card-name">Cardholder's Name</label>
+                <input type="text" class="form-control" name="card-name" id="card-name" placeholder="Enter Full Name">
+                <small id="firstNameHelp" class="form-text text-muted">Enter your name as you see it on the card!</small>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Enter Card Number">
+                <small id="cardNumberHelp" class="form-text text-muted">Enter card number exactly as you see it.</small>
+            </div>
+            <div class="form-group">
+                <label for="expiration-date">Expiration Date</label>
+                <input type="text" class="form-control" name="expiration-date" id="expiration-date" placeholder="Enter Expiration Date">
+                <small id="expirationDateHelp" class="form-text text-muted">Enter expiration date exactly as you see it.</small>
+            </div>
+            <div class="form-group">
+                <label for="card-cvv">Card CVV Code</label>
+                <input type="text" class="form-control" name="card-cvv" id="card-cvv" placeholder="Enter Card CVV Code">
+                <small id="cardCVVHelp" class="form-text text-muted">The Card CVV Code is on the back of the card!</small>
+            </div>
+            
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="save-details-check" value="1" id="save-details-check">
+                <label class="form-check-label mb-2" for="save-details-check">Click me to save your card details for easy checkout!</label>
+            </div>
+            <input type="submit" class="btn btn-primary" value="Check Out!"/>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.top-nav {
+    background-color: #934BFD;
+}
+
+.top-nav ul {
+    margin: 0 !important; /*Don't like the way bootstrap does this margin underneath.*/
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.top-nav ul li {
+    display: inline-block;
+}
+
+.top-nav ul li a {
+    color: #ACACAC;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0px 10px;
+    opacity: 0.5;
+}
+
+.top-nav ul li a:hover {
+    opacity: 1;
+}
+
+.top-nav ul li .active {
+    opacity: 1;
+}
